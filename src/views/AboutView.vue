@@ -1,5 +1,10 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    提交结果：{{this.$route.query.state == 1 ? '成功' : '失败'}}
   </div>
 </template>
+
+<script>
+export default {
+}
+</script>
